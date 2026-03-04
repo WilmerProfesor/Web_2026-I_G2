@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#uno{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#dos{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* position: relative; */
+    position: sticky;
+    top: 50px;
+    /* left: 50px; */
+}
+#tres{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#container{
+    width: 500px;
+    height: 500px;
+    border: red solid;
+    display: flex;
+}
+
+#superior{
+    width: 500px;
+    height: 100px;
+    border: red solid;
+}
+
+#inferior{
+    width: 500px;
+    height: 200vh;
+    border: red solid;
+}

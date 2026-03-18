@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+#box{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    /* background-image: linear-gradient(to top left, yellow, yellow,  blue, red); */
+    /* background-image: radial-gradient(circle, yellow, yellow,  blue, red); */
+    /* transform: translate(-100px, 100px); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: scale(-1);
+    transition: 3s; */
+}
+
+.letra-grande{
+    font-size: 3rem;
+}
+
+
+.letra-amarilla{
+    color: yellow;
+}
